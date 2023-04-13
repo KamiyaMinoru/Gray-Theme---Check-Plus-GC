@@ -11,7 +11,7 @@ Just copy&paste content of Gray.Css into the CSS textbox and apply it<br>
 <br>
 ![image](https://user-images.githubusercontent.com/78710607/231753076-1c2d9978-a96d-4471-a7cf-3c3968248a61.png)<br>
 <br>
-and you will see this theme apply to the extension<br>
+and you will see this theme applied to the extension<br>
 ![image](https://user-images.githubusercontent.com/78710607/231754540-7a41c5d2-eeb5-42ea-9b26-2795ee5d1b0b.png)
 ![image](https://user-images.githubusercontent.com/78710607/231754847-7a8ec554-bef5-4644-9642-dc619ea167e3.png)<br>
 ![image](https://user-images.githubusercontent.com/78710607/231755302-69d36753-f82c-4740-8ea0-678ba7a1bbec.png)
