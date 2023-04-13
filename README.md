@@ -1,9 +1,10 @@
-This custom theme is for "Checker Plus for Google Calendar" <br>
+This custom theme is for "Checker Plus for Google Calendar™" <br>
 (hereafter referred to as "the extension"). <br>
-which is a extension of Chromium based browsers i.e. Google Chrome or Microsoft Edge<br>
+which is a extension of Chromium based browsers<br>
+i.e. Google Chrome or Microsoft Edge<br>
 <br>
-You can get the extension via <br>
-https://jasonsavard.com/Checker-Plus-for-Google-Calendar<br>
+You can get the extension via
+<a href=https://jasonsavard.com/Checker-Plus-for-Google-Calendar>jasonsavard.com</a><br>
 <br>
 After installing the extension<br>
 Just copy&paste content of Gray.Css into the CSS textbox and apply it<br>
