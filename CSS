@@ -1,0 +1,240 @@
+*{border-radius: 0!important}
+*{
+  --c18:#181818;  --c22:#222222;  --c35:#353535;
+  --c55:#555555;  --c77:#777777;
+  --caa:#aaaaaa;  --ccc:#cccccc;  --cff:#ffffff;
+  --ctt:#ffcc33;  --cbb: #556688;
+  --cwek:#445577; --csat: #777744;--csun:#774455;
+   --primary-color: VAR(--cbb)!important;
+   --primary-text-color: VAR(--ccc)!important;
+   --primary-background-color: VAR(--c35)!important;
+   --secondary-text-color: VAR(--c55)!important; 
+   --secondary-background-color: VAR(--c35)!important;
+   --fc-now-indicator-color: VAR(--cbb)!important;
+   --fc-today-bg-color: VAR(--c22)!important;
+   --fc-border-color: VAR(--c55)!important;
+   --fc-event-border-color: VAR(--cbb)!important;
+   --cp-primary-background-color: VAR(--c35)!important;
+   --cp-primary-text-color: VAR(--ccc)!important;
+   --cp-border-color: VAR(--c35)!important;
+   --fc-event-bg-color: VAR(--cbb)!important;
+   --today-date-bg-color: VAR(--c22)!important;
+   --input-text-color: VAR(--ccc)!important;
+   --paper-progress-active-color: VAR(--cbb)!important;
+   --paper-progress-container-color: 
+     VAR(--c35)!important;
+
+   --cp-primary-background-color: VAR(--ctt);
+   --cp-secondary-background-color: VAR(--ctt);
+   --accent-color: inherit!important}
+
+
+/*星期*/ /*Please modify accordingly*/
+
+[aria-label^="星期"]  {color: var(--cwek)}
+[aria-label="星期六"] {color: var(--csat)}
+[aria-label="星期日"] {color: var(--csun)}
+
+.fc-day-today             .fc-list-day-text,
+.fc-day-today             .fc-col-header-cell-cushion
+    {color: var(--cwek)!important}
+.fc-day-sat.fc-day-today  .fc-list-day-text
+.fc-day-sat.fc-day-today  .fc-col-header-cell-cushion 
+    {color: var(--csat)!important}
+.fc-day-sun.fc-day-today  .fc-list-day-text
+.fc-day-sun.fc-day-today  .fc-col-header-cell-cushion 
+    {color: var(--csun)!important}
+
+.fc-custom-view           .fc-day-today,
+#betaCalendar
+  .fc-dayGridMonth-view   .fc-day-today,
+  .fc-col-header-cell     .fc-day.fc-day-today 
+                          .fc-col-header-cell-cushion
+    {border: 3px dashed var(--cwek) !important}
+.fc-custom-view           .fc-day-today.fc-day-sat,
+.fc-dayGridMonth-view     .fc-day-sat.fc-day-today
+.fc-col-header-cell.fc-day.fc-day-sat.fc-day-today 
+                          .fc-col-header-cell-cushion 
+    {border: 3px dashed var(--csat) !important}
+.fc-custom-view           .fc-day-today.fc-day-sun,
+.fc-daygrid-body-balanced .fc-day-sun.fc-day-today
+.fc-col-header-cell.fc-day.fc-day-sun.fc-day-today 
+                          .fc-col-header-cell-cushion 
+    {border: 3px dashed var(--csun) !important}
+
+.fc-daygrid-day.fc-day.fc-day-today 
+.fc-daygrid-day-number {width: 100%; background: 
+       var(--cwek)!important; text-align: center}
+.fc-daygrid-day.fc-day.fc-day-sat.fc-day-today 
+.fc-daygrid-day-number {width: 100%; background: 
+       var(--csat)!important; text-align: center}
+.fc-daygrid-day.fc-day.fc-day-sun.fc-day-today 
+.fc-daygrid-day-number {width: 100%; background: 
+       var(--csun)!important; text-align: center}
+
+
+/*基礎*/
+img.logo, #share-icon-button{display: none!important}
+#titleLabel 
+ {margin:inherit!important;transform:translateY(-2px);
+  font-size: 20; font-weight: bold; color: var(--caa)}
+
+
+/*底色*/
+#calendarExtensionPopup,
+tr, td, [id*="dom"], .fc-list-day-cushion.fc-cell-shaded,
+body.popup app-toolbar, #mainContent, #drawer-scrollarea,
+#drawerPanel app-header,
+.fc-popover-body 
+    {color: var(--caa)!important; background: var(--c22)}
+.fc-popover-header
+    {background: var(--c18)!important}
+
+body [class*="fc-day-other"] 
+{background: var(--c18); border: 1px dashed var(--c35)}
+
+#calendar-reminder-window 
+.layout.horizontal.event.no-snooze-before,
+.hideDelete
+{color: var(--caa)!important; 
+ background: var(--c22)!important}
+
+.agendaEvent,
+.horizontal.layout .agendaDayEvents, .agendaEventTitleWrapper
+{color: var(--c77); padding:1px}
+.agendaEventTitleWrapper
+{background: var(--c18)}
+.agendaDay.horizontal.layout    .agendaEvent
+                                {filter: grayscale(100%)}
+.agendaDay.horizontal.layout.today.current-or-future
+                                .agendaEvent
+                                {filter: grayscale(0%)}
+.agendaDay.horizontal.layout.today.current-or-future
+                                .agendaEventTitle,
+.fc-event-title-container, .fc-daygrid-event
+{color: var(--caa)!important; 
+        font-size: 10; font-weight: bold}
+
+
+/*事件*/
+fc-daygrid fc-custom-view  .fc-event-main, 
+.fc-custom-view 
+    .fc-event-title-container .fc-event-title,
+.fc-dayGridMonth-view 
+    .fc-event-title-container .fc-event-title,
+.fc-custom-view 
+    .fc-daygrid-event-harness-abs .fc-event-time,
+#calendarExtensionPopup 
+    .fc-event-title-container
+
+{color: var(--c18)!important; font-size:10;
+ display: flex; align-items:flex-end}
+.fc-timeGridDay-view       .fc-event-main, 
+.fc-timeGridDay-view       .fc-event-title,
+.fc-timeGridWeek-view      .fc-event-main,
+.fc-timeGridWeek-view      .fc-event-title
+{color: var(--ccc)!important; font-size:10;
+ font-weight: bold;   background: rgba(35, 35, 35, 1)}
+
+
+/*選紐*/
+
+#options-menu .iron-selected,
+#skinAuthor, a:visited {color: var(--cbb)!important}
+#event-transparency .iron-selected,
+#createEventDialog  .iron-selected,
+#createEventDialog  .iron-selected:hover,
+paper-item:hover,   .iron-selected:hover,
+paper-item:focus,
+#gotoDateDialog     .iron-selected,
+#gotoDateDialog     .iron-selected:hover,
+paper-dropdown-menu paper-item:hover,
+paper-dropdown-menu paper-item.iron-selected,
+paper-icon-item:hover {background: var(--c22)!important}
+paper-icon-button     {color: var(--caa)!important}
+.addbutton.selected 
+           {color: var(--cff)!important}
+.addbutton.selected, .addbutton
+           {background: VAR(--c35)!important}
+paper-button.okdialog.colored, #bigAddEventButton:hover,
+#joinVideoCallButton, #eventConference, #saveEvent
+ {color: var(--ccc); background: var(--cbb)!important}
+textarea {color: var(--ccc); background: var(--c22); 
+          font-family: "consolas"; font-size: 9px}
+.fc-daygrid-body-unbalanced
+                .fc-day-other, 
+.fc-daygrid-body-unbalanced
+                .fc-day-other .fc-daygrid-day-number,
+#eventsWrapper #events
+ {color: var(--c35)!important; background: var(--c22)}
+#datepickerWrapper  .selected,
+#datepickerWrapper  .fc-daygrid-day-frame,
+ {color: var(--c35)!important; background: var(--c22)}
+#eventDescription a,
+.clickedEventSubDetails a,
+#clickedEventCreatedByWrapper a, 
+#clickedEventLocationWrapper  a    {color: var(--cbb)}
+input[type="text"]:focus, #eventDescription:focus 
+{border-bottom-color: var(--cbb)!important}
+.fc-list-event:hover .fc-list-event-title, 
+.fc-list-event:hover .fc-list-event-graphic, 
+.fc-list-event:hover .fc-list-event-time,
+
+#event-task-list-wrapper 
+       .calendarReminder paper-item,
+#event-task-list-wrapper 
+       .calendarReminder paper-item.iron-selected,
+#event-task-list-wrapper 
+       .calendarReminder paper-item:hover,
+
+#time-dropdown .time-dropdown-item.selected
+{color:         var(--ccc) !important; 
+    background: var(--c22) !important}
+
+
+/*捲軸*/
+::-webkit-scrollbar{background: VAR(--c35)}
+::-webkit-scrollbar-thumb{background: VAR(--c77)}
+::-webkit-resizer {background: VAR(--c55)}
+::-webkit-scrollbar-thumb:hover {background: VAR(--ccc)}
+
+#searchInput, #quickAdd
+            {border: 1px dashed var(--c55)!important}
+.searchInputVisible
+            {background:        var(--c35)!important}
+
+/*其他*/
+.event .snoozeButtons. paper-button
+{color: var(--ccc) !important; 
+background: var(--c35) !important}
+
+/*小曆*/
+
+.fc-prev-button:hover, .fc-next-button:hover,
+#datepicker            .fc-daygrid-day-frame:hover,
+#datepicker            .fc-daygrid-day-number:hover,
+#miniCalendar          .fc-daygrid-day-frame:hover,
+#miniCalendar          .fc-daygrid-day-number:hover,
+#betaCalendarWrapper   .fc-daygrid-day-number:hover,
+#date-dropdown         .fc-daygrid-day-frame,
+#date-dropdown         .fc-daygrid-day-frame:hover,
+#date-dropdown         .fc-daygrid-day-number:hover,
+#date-dropdown         .fc-header-toolbar
+    {color: var(--cff)!important; 
+     background: var(--c22)!important}
+
+
+/*待改*/
+.agendaDay       .agendaDateWrapper{color: var(--c35)}
+.agendaDay.today .agendaDateWrapper{color: var(--caa)}
+
+/*無效*/ /*invalid to uncommon shadow dom elements*/
+
+paper-dropdown-menu paper-item:hover,
+paper-dropdown-menu paper-item.iron-selected:hover,
+paper-dropdown-menu::part(paper-item.iron-selected):hover,
+paper-dropdown-menu::part(paper-item):hover,
+paper-dropdown-menu::shadow paper-item:hover,
+paper-dropdown-menu::shadow ::slotted(paper-item):hover 
+{background: var(--c22) !important}
+.fc-event-time:nth-child(1) {display:none}
