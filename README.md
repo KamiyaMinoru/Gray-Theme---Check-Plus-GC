@@ -9,6 +9,8 @@ After installing <Checker Plus for Google Calendar>
 Just copy&paste content of Gray.Css into the CSS textbox and apply it
 and you will see this theme apply to <Checker Plus for Google Calendar> 
 
-Unfortunately, due to some native bugs and Shadow DOM issues with this extension,
-the theme is not perfect. Please modify this yourself, or report your problem to
+Unfortunately, 
+due to some native bugs and Shadow DOM issues with this extension,
+this theme is not perfect match to all elements;
+Please modify this yourself, or report your problem to
 the author of <Checker Plus for Google Calendar>
