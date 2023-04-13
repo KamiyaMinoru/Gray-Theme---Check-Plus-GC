@@ -238,3 +238,5 @@ paper-dropdown-menu::shadow paper-item:hover,
 paper-dropdown-menu::shadow ::slotted(paper-item):hover 
 {background: var(--c22) !important}
 .fc-event-time:nth-child(1) {display:none}
+
+/* Author: Kamiya Minoru*/
