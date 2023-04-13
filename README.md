@@ -7,7 +7,7 @@ You can get the extension via
 <a href=https://jasonsavard.com/Checker-Plus-for-Google-Calendar>jasonsavard.com</a><br>
 <br>
 After installing the extension<br>
-Just copy&paste content of Gray.Css into the CSS textbox and apply it<br>
+Just copy&paste content of <a href=https://github.com/KamiyaMinoru/Gray-Theme---Check-Plus-GC/blob/main/CSS>Gray.Css</a> into the CSS textbox and apply it<br>
 <br>
 ![image](https://user-images.githubusercontent.com/78710607/231753076-1c2d9978-a96d-4471-a7cf-3c3968248a61.png)<br>
 <br>
