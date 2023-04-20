@@ -125,8 +125,8 @@ fc-daygrid fc-custom-view  .fc-event-main,
 .fc-custom-view 
     .fc-daygrid-event-harness-abs .fc-event-time,
 #calendarExtensionPopup 
-    .fc-event-title-container
-
+    .fc-event-title-container,
+    .fc-event-time:nth-child(1)
 {color: var(--c18)!important; font-size:10;
  display: flex; align-items:flex-end}
 .fc-timeGridDay-view       .fc-event-main, 
@@ -237,6 +237,8 @@ paper-dropdown-menu::part(paper-item):hover,
 paper-dropdown-menu::shadow paper-item:hover,
 paper-dropdown-menu::shadow ::slotted(paper-item):hover 
 {background: var(--c22) !important}
-.fc-event-time:nth-child(1) {display:none}
 
-/* Author: Kamiya Minoru*/
+
+
+/* Author: Kamiya Minoru */
+/* last updated: 2023/04/20 */
